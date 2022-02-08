@@ -38,7 +38,7 @@
     overflow: hidden;
 }
 
-img {
+.imgxd {
     width: 150px;
     height: 150px;
     top: 30px;
@@ -178,3 +178,62 @@ img {
     background: aqua;
 }
 
+.objectfil {
+    margin:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.objectfil img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+.objectcontain {
+    margin:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.objectcontain img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+.objectcover {
+    margin:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.objectcover img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+.objectnone {
+    margin:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.objectnone img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+.objectscale-none {
+    margin:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.objectscale-none img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
