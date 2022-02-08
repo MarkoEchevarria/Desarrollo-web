@@ -1,0 +1,297 @@
+/*este es un comentario*/
+* {
+    color: black;
+    font-size: 30px;
+}
+
+h1 {
+    color:darkmagenta;
+    display: inline-block;
+}
+
+.clase1 {
+    color:gold;
+}
+
+#identificador1{
+    color:hotpink;
+}
+
+[atributo="xddd"]{
+    color: lawngreen;
+}
+
+h3 b {
+    color: lightseagreen;
+}
+
+#id2:hover {
+    color: mediumblue;
+}
+
+#id3 {
+    color: mediumspringgreen !important;
+}
+
+.div__p-h4 {
+    color:darkgreen
+}
+
+.div {
+    font-size: 10px;
+
+}
+
+.div__p-h4 {
+    font-size: 4em;
+    font-family: fantasy;
+    line-height: 2;
+    font-weight: 200; /*grosor*/
+}
+
+.wag {
+    font-family: 'Comforter', cursive;
+    width: 30vw;
+    height: 11vh;
+}
+
+.pxd1,.pxd2 {
+    display: inline; 
+}
+
+.bxd1, .bxd2, .bxd3 {
+    display: block; /* en display block se puede usar height y width */
+    width: 30px;
+    height: 30px;
+}
+
+.h3xd1 {
+    display: inline-block;
+    background-color: olive;
+    padding: 40px 30px 20px 10px ;
+}
+
+.h3xd2 {
+    display: inline-block;
+    background-color: olive;
+    padding: 10px 10px ;
+    box-sizing: border-box;
+    width: 200px ;
+    height: 50px;
+    text-align: center;
+    margin:10px
+}
+
+.h3xd3 {
+    display: inline-block;
+    background-color: olive;
+    line-height: 1;
+    box-sizing: border-box;
+    width: 200px ;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px ;
+    border:10px solid blue;
+    box-shadow: 15px 15px 30px 0px black;
+    text-shadow: 2px 2px 7px #fff;
+    transform: rotate(10deg);
+}
+
+.caja1 {
+    background: cyan;
+    width: 200px;
+    height: 200px;
+    margin: auto; /*para centrar xd*/
+    border: 10px solid black;
+    box-sizing: border-box ;
+}
+
+.caja2 {
+    background: darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    margin: auto; /*para centrar xd*/
+    border: 10px solid lightcoral;
+    box-sizing: content-box ;
+}
+
+.caja3 {
+    background: darkgreen;
+    width: 200px;
+    height: 200px;
+    margin: auto; /*para centrar xd*/
+    outline: 10px solid lightskyblue;
+    box-sizing: border-box ;  
+}
+
+.caja4 {
+    background: lemonchiffon;
+    width: 200px;
+    height: 200px;
+    margin: auto; /*para centrar xd*/
+    outline: 10px solid maroon;
+    box-sizing: content-box ;
+}
+
+.xd {
+    background: mediumspringgreen;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.caja5 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.caja6 {
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:40px;
+    left: 40px;
+    z-index: 100;
+}
+
+.caja7 {
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.caja8 {
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+}
+
+.padre{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 30px;
+    position: relative;
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    background: rgb(175, 141, 5);
+    position: relative;
+    top:-20px;
+    left: -20px;
+    z-index: -1;
+}
+
+.contenedorabsolute {
+    margin: 50px ;
+   /* position: absolute; se ajusta al contenido*/
+
+}
+
+.caja9 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.caja10 {
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5; /* transparencia*/
+    position: absolute;
+}
+
+.caja11 {
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+}
+
+.caja12 {
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+}
+
+.esquinas{
+    background: lime;
+    position: relative;
+    border: 4px solid black;
+    margin: 30px auto ;
+    height: 400px;
+    width: 400px;
+}
+
+.cajaxd1 {
+    background-color: rgb(255, 251, 15);
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cajaxd2 {
+    background-color: rgb(255, 251, 15);
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    right:0
+}
+
+.cajaxd3 {
+    background-color: rgb(255, 251, 15);
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    top:0
+}
+
+.cajaxd4 {
+    background-color: rgb(255, 251, 15);
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.cajaxd5 {
+    background-color: rgb(255, 251, 15);
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.cajafixed {
+    background: magenta;
+    position: fixed ;
+    margin: -100px;
+    top:10px
+    /* menu fijo  */
+}
+
+.cajasticky{
+    background: darkgreen;
+    position: sticky;
+    top: 5px;
+}
+
+
